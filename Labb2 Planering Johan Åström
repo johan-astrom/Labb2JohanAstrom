@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T07:53:15.162Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="z-94K9BGAad6Sce3mNWi" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-18T09:13:38.822Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="_LMdDNwxmUXHLW3V-iVb" version="13.6.10" type="github">
   <diagram id="IFu_aJzen0r131eobcJ4" name="Page-1">
     <mxGraphModel dx="946" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
         <mxCell id="bvOyNyMc0H4a7Yw24whT-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="bvOyNyMc0H4a7Yw24whT-23">
           <mxGeometry y="60" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="bvOyNyMc0H4a7Yw24whT-7" value="Album" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="bvOyNyMc0H4a7Yw24whT-7" value="Album" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="516" y="430" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="bvOyNyMc0H4a7Yw24whT-8" value="name: String&#xa;artist: String&#xa;length: int&#xa;songs: ArrayList&lt;Song&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bvOyNyMc0H4a7Yw24whT-7">
@@ -91,7 +91,7 @@
         <mxCell id="bvOyNyMc0H4a7Yw24whT-45" value="menu()&#xa;createCollection()&#xa;addAlbum()&#xa;removeAlbum()&#xa;changeAlbum()&#xa;searchAlbum()&#xa;viewCollection()&#xa;viewAll()&#xa;addSong()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bvOyNyMc0H4a7Yw24whT-42">
           <mxGeometry y="60" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="bvOyNyMc0H4a7Yw24whT-1" value="Collections" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="bvOyNyMc0H4a7Yw24whT-1" value="CollectionHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="140" width="270" height="190" as="geometry" />
         </mxCell>
         <mxCell id="bvOyNyMc0H4a7Yw24whT-2" value="&#xa;musicCollections: ArrayList&lt;MusicCollection&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bvOyNyMc0H4a7Yw24whT-1">
